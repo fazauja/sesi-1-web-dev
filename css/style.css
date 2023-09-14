@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 7%;
+  background-color: #000235;
+  color: #fff;
+  font-family: "Outfit", sans-serif;
+}
+header {
+  margin: 50px 0 90px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none; /* Menghapus poin pada daftar */
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  float: right; /* Membuat item menu berada dalam satu baris horizontal */
+  margin: 0 20px; /* Jarak antara item menu */
+}
+
+a {
+  text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+  color: #fff; /* Warna teks tautan */
+  font-weight: bold; /* Ketebalan teks tautan */
+}
+
+a:hover {
+  color: #98d5d6; /* Warna teks tautan saat dihover */
+}
+
+h4 {
+  margin: 0 auto 20px;
+  color: #fff;
+
+  /* Sub Heading */
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.5px; /* 137.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Button */
+
+.btn-1 {
+  margin: 20px;
+  width: 255px;
+  height: 72.884px;
+  flex-shrink: 0;
+  border-radius: 83px;
+  border: none;
+  background: #8d8dda;
+  color: #fff;
+  /* Sub Heading */
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.5px; /* 137.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-2 {
+  margin: 20px;
+  width: 255px;
+  height: 72.884px;
+  flex-shrink: 0;
+  border-radius: 83px;
+  border: 1px solid #98d5d6;
+  background: none;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.5px; /* 137.5% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Hero */
+
+h1 {
+  /* H1 - Main Heading */
+  width: 488px;
+  height: 290.539px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Outfit;
+  font-size: 87px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 87px */
+  text-transform: capitalize;
+}
+
+p {
+  /* Body Text */
+  margin-bottom: 50px;
+  margin-top: 20px;
+  width: 373px;
+  height: 54.913px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.5px; /* 152.778% */
+}
+.img-hero {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+/* Featured On */
+#featured {
+  margin-top: 50px;
+}
+.featured {
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: rgba(99, 88, 189, 0.2);
+}
+
+.img-featured {
+  flex-shrink: 0;
+  opacity: 0.6;
+  margin: 0 7%;
+}
+/* Analytics */
+h2 {
+  margin: auto;
+  width: 513px;
+  height: 110px;
+  flex-shrink: 0;
+  color: #fff;
+
+  /* H2 */
+  font-family: Outfit;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 57px */
+  text-transform: capitalize;
+}
+
+.analytics-1 {
+  display: inline-block;
+}
+.analytics-2 {
+  display: inline-block;
+  position: relative;
+  left: 320px;
+  top: 110px;
+}
+
+.img-analytics {
+  width: 120%;
+  height: 120%;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 50px;
+}
+
+.get-1 {
+  display: inline-block;
+}
+.get-2 {
+  display: inline-block;
+  position: relative;
+  right: -200px;
+  bottom: 150px;
+}
+
+/* Testimonial */
+
+.testimonial-1 {
+  text-align: center;
+  height: 300px;
+}
+.testimonial-2 {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.img-testimonial-1 {
+  margin: auto;
+  width: 30%;
+  border-radius: 100%;
+  position: relative;
+  bottom: 75px;
+}
+
+.card {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  width: 345px;
+  height: 313px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #141450;
+}
+
+.paragraph-testimonial {
+  text-align: center;
+  width: 100%;
+}
+
+/* are you ready */
+#ready {
+  padding: 5%;
+  margin: 5% 0;
+  border-radius: 30px;
+  background: linear-gradient(280deg, #98d5d6 -11.02%, #5050c5 88.33%);
+}
+.ready {
+  text-align: center;
+}
+
+/* Footer */
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+.footer-krypto,
+.footer-market,
+.footer-social,
+.form {
+  margin: 0 7% ;
+} 
+
+/*even handler*/
+/* gambar */
+
+
+.putar {
+  animation: putar 1s linear;
+}
+
+@keyframes putar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*
+tombol
+*/
+
+.tombol-animasi {
+  animation: spektakuler 1s ease-in-out;
+  transform: scale(1.2); 
+  color: rgb(56, 141, 175); 
+}
+
+@keyframes spektakuler {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5); 
+    color: blue; 
+  }
+}
+
